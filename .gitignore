@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# 模型文件由脚本首次运行时自动下载，不入库
+models/
+*.task
+*.task.zip
