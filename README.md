@@ -29,7 +29,19 @@ python attention_analysis_demo.py
 
 - 默认调用本机摄像头；也可以传入视频文件路径做离线演示，例如 `python posture_reminder_demo.py demo.mp4`。
 - 按 `q` 或 `Esc` 退出。
-- 模型文件在首次运行时会自动从本仓库的 GitHub Release（`models-v1`）下载到 `models/` 目录，无需手动放置。
+- 模型文件在首次运行时会自动下载，下载地址见下方「模型文件」。
+
+## 模型文件
+
+运行脚本时，如果 `models/` 目录下缺少对应模型，脚本会自动下载。也可以手动下载后放到项目的 `models/` 目录下：
+
+| 模型文件 | 对应脚本 | 下载地址 |
+| --- | --- | --- |
+| `gesture_recognizer.task` | `gesture_control_demo.py` | [下载](https://github.com/dsjerry/mediapipe-demo/releases/download/models-v1/gesture_recognizer.task) |
+| `pose_landmarker.task` | `posture_reminder_demo.py` | [下载](https://github.com/dsjerry/mediapipe-demo/releases/download/models-v1/pose_landmarker.task) |
+| `face_landmarker.task` | `attention_analysis_demo.py` | [下载](https://github.com/dsjerry/mediapipe-demo/releases/download/models-v1/face_landmarker.task) |
+
+所有模型也可以在 Release 页面统一下载：https://github.com/dsjerry/mediapipe-demo/releases/tag/models-v1
 
 ## 目录结构
 
