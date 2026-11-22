@@ -43,10 +43,7 @@ from mediapipe.tasks.python.vision import hand_landmarker
 # ---------------------------------------------------------------------------
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 MODEL_PATH = os.path.join(MODEL_DIR, "gesture_recognizer.task")
-MODEL_URL = (
-    "https://storage.googleapis.com/mediapipe-models/"
-    "gesture_recognizer/gesture_recognizer/float16/latest/gesture_recognizer.task"
-)
+MODEL_URL = "https://github.com/dsjerry/mediapipe-demo/releases/download/models-v1/gesture_recognizer.task"
 
 # 识别置信度低于该值时不展示手势
 MIN_CONFIDENCE = 0.6

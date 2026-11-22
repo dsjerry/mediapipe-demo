@@ -29,7 +29,7 @@ python attention_analysis_demo.py
 
 - 默认调用本机摄像头；也可以传入视频文件路径做离线演示，例如 `python posture_reminder_demo.py demo.mp4`。
 - 按 `q` 或 `Esc` 退出。
-- 模型文件在首次运行时会自动下载到 `models/` 目录。
+- 模型文件在首次运行时会自动从本仓库的 GitHub Release（`models-v1`）下载到 `models/` 目录，无需手动放置。
 
 ## 目录结构
 

@@ -46,10 +46,7 @@ from mediapipe.tasks.python.vision import pose_landmarker
 # ---------------------------------------------------------------------------
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 MODEL_PATH = os.path.join(MODEL_DIR, "pose_landmarker.task")
-MODEL_URL = (
-    "https://storage.googleapis.com/mediapipe-models/"
-    "pose_landmarker/pose_landmarker_full/float16/latest/pose_landmarker_full.task"
-)
+MODEL_URL = "https://github.com/dsjerry/mediapipe-demo/releases/download/models-v1/pose_landmarker.task"
 
 # 关键点索引（MediaPipe Pose 33 点）
 NOSE = 0

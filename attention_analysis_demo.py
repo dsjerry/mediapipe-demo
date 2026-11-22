@@ -40,10 +40,7 @@ from mediapipe.tasks.python import vision
 # ---------------------------------------------------------------------------
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 MODEL_PATH = os.path.join(MODEL_DIR, "face_landmarker.task")
-MODEL_URL = (
-    "https://storage.googleapis.com/mediapipe-models/"
-    "face_landmarker/face_landmarker/float16/1/face_landmarker.task"
-)
+MODEL_URL = "https://github.com/dsjerry/mediapipe-demo/releases/download/models-v1/face_landmarker.task"
 
 # 朝向判定阈值（度）：超出范围视为未看向屏幕
 YAW_THRESHOLD = 25.0      # 左右转头（偏航）
